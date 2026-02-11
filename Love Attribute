@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de prueba personalizada</title>
+    <style>
+        /* Paleta de colores */
+        :root {
+            --cielo: #99A4A9;          /* Fondo más claro */
+            --piel: #BDBEBA;           /* Detalles / ropa */
+            --rojo: #C60B2D;           /* Detalle destacado */
+            --gris-oscuro: #3F4346;    /* Sombras / líneas */
+            --nubes: #757E84;          /* Sombras del fondo */
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: var(--cielo);
+            color: var(--gris-oscuro);
+            text-align: center;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid var(--piel);
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            max-width: 600px;
+            margin: 10px auto;
+            font-size: 1.1em;
+            line-height: 1.5em;
+        }
+
+        p.frase1 {
+            color: var(--rojo);
+        }
+
+        p.frase2 {
+            color: var(--nubes);
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 style="color: var(--piel);">Página de prueba</h1>
+
+    <!-- Imagen de portada -->
+    <img src="https://i.imgur.com/gIgrSqP.jpg" alt="Portada">
+
+    <!-- Frases -->
+    <p class="frase1">"Hay flores que se pudrieron incluso después de haber recibido amor. Como la hierba que arde con el fuego."</p>
+    <p class="frase2">"El amor es débil ante el dinero, el amor es débil ante los rumores. Y, como siempre, sigo diciendo tonterías."</p>
+
+</body>
+</html>
